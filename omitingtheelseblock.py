@@ -16,7 +16,7 @@ elif age < 65:
 
 elif age >= 65:
     price = 20
-
+print(f"The admission price for you is ${price}")
 #it's a bit cleaner to use an elif to catch the specific condition of interest*
 #instead of an else, we just covered all other possible numbers with a more
 #than or equal to 65!
